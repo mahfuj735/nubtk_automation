@@ -1,5 +1,15 @@
 # nubtk_automation
 
+## 🚀 Project Overview
+
+This automation project consists of the following key modules:
+
+-   **University Website**
+-   **Admission Process**
+-   **Admin Panel**
+-   **Student App**
+-   **Faculty App**
+
 ## 📸 Screenshots
 
 ### 🌐 Web Portals
