@@ -34,7 +34,7 @@ The complete defense presentation slide deck and project documentation are archi
 
 <div align="center">
   <a href="./Mahfuj735.pdf">
-    <img src="assets/defense_presentation_preview.png" width="85%" alt="Industrial Training Defense Presentation Preview" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.18); border: 1px solid #e1e4e8;">
+    <img src="assets/presentation_cover.png" width="85%" alt="Industrial Training Defense Presentation Preview" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.18); border: 1px solid #e1e4e8;">
   </a>
   <br><br>
 
