@@ -9,6 +9,7 @@
 [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org)
 [![Supabase](https://img.shields.io/badge/Cloud-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
 [![Firebase](https://img.shields.io/badge/Auth%20%26%20Push-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![Project Report: 44 Pages](https://img.shields.io/badge/Project_Report-44_Pages_PDF-8A2BE2?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./Final_project_Report.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
 
 <p align="center">
@@ -17,7 +18,8 @@
   <b>Northern University of Business and Technology Khulna (NUBTK)</b>
 </p>
 
-[📑 View Presentation (PDF)](#-industrial-training-defense-presentation) •
+[📘 Final Project Report (PDF)](#-project-documentation--defense-artifacts) •
+[📊 Defense Slides](#-project-documentation--defense-artifacts) •
 [🏛️ System Architecture](#-system-architecture) •
 [🌐 Web Portals](#-web-portals) •
 [📊 Admin ERP](#-centralized-admin-panel--erp) •
@@ -28,33 +30,73 @@
 
 </div>
 
-## 📑 Industrial Training Defense Presentation
+## 📚 Project Documentation & Defense Artifacts
 
-The complete defense presentation slide deck and project documentation are archived in this repository:
+The repository includes both the complete **44-Page Academic Final Project Report** and the **Industrial Training Defense Presentation Slides**:
 
-<div align="center">
-  <a href="./Mahfuj735.pdf">
-    <img src="assets/presentation_cover.png" width="85%" alt="Industrial Training Defense Presentation Preview" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.18); border: 1px solid #e1e4e8;">
-  </a>
-  <br><br>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="48%" valign="top">
+      <h3>📘 Comprehensive Final Project Report</h3>
+      <p><b>44 Pages • Complete Academic Monograph</b></p>
+      <a href="./Final_project_Report.pdf">
+        <img src="assets/report_cover.png" width="280" alt="Final Project Report Cover Preview" style="border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.18); border: 1px solid #d1d5db;">
+      </a>
+      <br><br>
+      <a href="./Final_project_Report.pdf">
+        <img src="https://img.shields.io/badge/📄_Read_Final_Report-PDF_(44_Pages)-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Read Final Report PDF">
+      </a>
+      <br><br>
+      <p align="left">
+        <sub><b>Key Highlights:</b> Formal academic monograph covering requirement engineering, relational schemas (10+ tables), system architecture, implementation phases, benchmarking & latency test data, and user experience analysis.</sub>
+      </p>
+    </td>
+    <td align="center" width="52%" valign="top">
+      <h3>📊 Defense Presentation Slide Deck</h3>
+      <p><b>15 Slides • Defense Visuals & Summary</b></p>
+      <a href="./Mahfuj735.pdf">
+        <img src="assets/presentation_cover.png" width="400" alt="Industrial Training Defense Presentation Preview" style="border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.18); border: 1px solid #d1d5db;">
+      </a>
+      <br><br>
+      <a href="./Mahfuj735.pdf">
+        <img src="https://img.shields.io/badge/📄_View_Slides-PDF_Format-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Read Slides PDF">
+      </a>
+      &nbsp;
+      <a href="./Mahfuj735.pptx">
+        <img src="https://img.shields.io/badge/📊_Download-PowerPoint_PPTX-orange?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" alt="Download PPTX">
+      </a>
+      <br><br>
+      <p align="left">
+        <sub><b>Key Highlights:</b> Slide deck utilized during the official industrial training defense examination before the departmental board at NUBTK. Summarizes system motivation, core modules, architecture, and live demo results.</sub>
+      </p>
+    </td>
+  </tr>
+</table>
 
-  <a href="./Mahfuj735.pdf">
-    <img src="https://img.shields.io/badge/📄_Read_Defense_Report-PDF_Format-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Read PDF">
-  </a>
-  &nbsp;&nbsp;
-  <a href="./Mahfuj735.pptx">
-    <img src="https://img.shields.io/badge/📊_Download_Slides-PowerPoint_PPTX-orange?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" alt="Download PPTX">
-  </a>
-</div>
+<br>
+
+### 📑 Project Report Outline & Chapter Guide
+
+For an in-depth understanding, the complete project report ([Final_project_Report.pdf](./Final_project_Report.pdf)) is structured into the following chapters:
+
+| Chapter | Title | Key Contents & Detailed Coverage |
+| :---: | :--- | :--- |
+| **Chapter 1** | **Introduction & Scope** | Motivation behind campus automation, primary objectives, specific technical aims, academic learning outcomes, and report organization. |
+| **Chapter 2** | **Literature Review & Gap Analysis** | Digital transformation in tertiary education, ERP paradigms, comparative review against Canvas LMS and Moodle, identification of system gaps, and technology selection rationale. |
+| **Chapter 3** | **System Methodology & Architecture** | Modular MVC architecture, route map, comprehensive database schema design (Users, Students, Admissions, Courses, Evaluations, Badges, Transport, etc.), 7-phase implementation process, and key algorithms (admission pipeline, CGPA engine, data sync, and AI query router). |
+| **Chapter 4** | **Results, Discussion & Benchmarks** | Detailed walkthrough of the public portal, admission system, central admin ERP, Flutter mobile apps, database query latency tests, system accuracy benchmarks, security hardening, and user satisfaction metrics. |
+| **Chapter 5** | **Conclusions & Recommendations** | Summary of industrial training achievements, real-world deployment challenges, project limitations, and future roadmap (e.g., MFS automated payment integration). |
 
 <br>
 
 | Academic Details | Information |
 | :--- | :--- |
 | **Project Title** | University Management System: A Digital Ecosystem for Academic Excellence |
-| **Presented By** | **Md. Mahfujul Karim Sheikh** (Student ID: `11220120735`, Section: `7B`) |
+| **Course** | **CSE 4100: Field Work / Industrial Training** |
+| **Presented By** | **Md. Mahfujul Karim Sheikh** (Student ID: `11220120735`, Section: `7B`, 7th Semester) |
 | **Supervised By** | **Md. Mossadek Touhid**, Lecturer, Department of CSE |
 | **Institution** | **Northern University of Business and Technology Khulna (NUBTK)** |
+| **Academic Session** | January, 2026 |
 | **Core Focus** | End-to-end digitisation of academic, administrative, financial, and student workflows |
 
 ---
@@ -272,6 +314,9 @@ Empowers professors and course instructors with on-the-go academic management.
   - Northern University of Business and Technology Khulna (NUBTK)
 - **Academic Supervisor:** Md. Mossadek Touhid
   - Lecturer, Department of CSE, NUBTK
+- **Academic Documents:**
+  - 📘 **Full Project Report:** [Final_project_Report.pdf](./Final_project_Report.pdf) *(44-page formal thesis monograph)*
+  - 📊 **Defense Presentation Slides:** [Mahfuj735.pptx](./Mahfuj735.pptx) • [Mahfuj735.pdf](./Mahfuj735.pdf)
 
 ---
 
