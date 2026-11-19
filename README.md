@@ -4,13 +4,21 @@
 ### *A Unified Digital Ecosystem for Academic Excellence & Campus Automation*
 
 [![Flutter](https://img.shields.io/badge/Mobile_App-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![React](https://img.shields.io/badge/Web_Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
-[![Node.js](https://img.shields.io/badge/Backend-Express%20%26%20NestJS-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+[![Next.js](https://img.shields.io/badge/Web_Frontend-Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+[![NestJS](https://img.shields.io/badge/Backend-NestJS_%26_Prisma-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com)
 [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org)
 [![Supabase](https://img.shields.io/badge/Cloud-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com)
 [![Firebase](https://img.shields.io/badge/Auth%20%26%20Push-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Project Report: 44 Pages](https://img.shields.io/badge/Project_Report-44_Pages_PDF-8A2BE2?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./Final_project_Report.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
+
+<br>
+
+[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nubtk-website.vercel.app)
+[![Live Admin ERP](https://img.shields.io/badge/📊_Live_Admin_ERP-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nubtk-admin.vercel.app)
+[![Live Backend API](https://img.shields.io/badge/⚡_Live_API-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://nubtk-unified-server.onrender.com)
+[![Student APK](https://img.shields.io/badge/📱_Student_App-Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/mahfuj735/nubtk_automation/releases/download/v1.0.0/NUBTK-Student-App-v1.0.0.apk)
+[![Faculty APK](https://img.shields.io/badge/👨‍🏫_Faculty_App-Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/mahfuj735/nubtk_automation/releases/download/v1.0.0/NUBTK-Faculty-App-v1.0.0.apk)
 
 <p align="center">
   <b>Developed for Industrial Training Defense</b><br>
@@ -18,6 +26,7 @@
   <b>Northern University of Business and Technology Khulna (NUBTK)</b>
 </p>
 
+[🚀 Live Demo & APKs](#-live-deployments--mobile-apks) •
 [📘 Final Project Report (PDF)](#-project-documentation--defense-artifacts) •
 [📊 Defense Slides](#-project-documentation--defense-artifacts) •
 [🏛️ System Architecture](#-system-architecture) •
@@ -29,6 +38,22 @@
 ---
 
 </div>
+
+## 🚀 Live Deployments & Mobile APKs
+
+Explore the live prototype deployments and installable Android APK builds directly from the links below:
+
+| Module | Stack & Hosting | Live Link / Download | Notes |
+| :--- | :--- | :--- | :--- |
+| **🌐 Public University Website** | Next.js 16 · Tailwind CSS · Vercel | **[nubtk-website.vercel.app](https://nubtk-website.vercel.app)** | Public portal, academic info, student & admission portals |
+| **📊 Central Admin & ERP Panel** | Next.js 16 · Zustand · Vercel | **[nubtk-admin.vercel.app](https://nubtk-admin.vercel.app)** | Includes **Continue with Demo Admin (Prototype)** & live backend login |
+| **⚡ Unified Backend API** | NestJS 10 · Prisma · Render + Supabase | **[nubtk-unified-server.onrender.com](https://nubtk-unified-server.onrender.com)** | REST API prefix `/api` · Free tier may take ~30–50s on initial cold start |
+| **📱 Student Mobile App (Android)** | Flutter · Dart · GitHub Release `v1.0.0` | **[Download Student APK (`78.9 MB`)](https://github.com/mahfuj735/nubtk_automation/releases/download/v1.0.0/NUBTK-Student-App-v1.0.0.apk)** | Release APK (`app-release.apk`) ready for direct Android installation |
+| **👨‍🏫 Faculty Mobile App (Android)** | Flutter · Dart · GitHub Release `v1.0.0` | **[Download Faculty APK (`63.6 MB`)](https://github.com/mahfuj735/nubtk_automation/releases/download/v1.0.0/NUBTK-Faculty-App-v1.0.0.apk)** | Release APK (`app-release.apk`) ready for direct Android installation |
+
+> 📦 **All Release Assets:** Available under [**Releases (`v1.0.0`)**](https://github.com/mahfuj735/nubtk_automation/releases/tag/v1.0.0).
+
+---
 
 ## 📚 Project Documentation & Defense Artifacts
 
@@ -119,15 +144,14 @@ Traditional university operations rely heavily on manual paperwork, distributed 
 ```mermaid
 graph TD
     subgraph Client_Layer["🖥️ Client Applications Layer"]
-        web["🌐 University Public Website<br/><b>React.js / Vite</b>"]
-        admin["📊 Central Admin & ERP Portal<br/><b>React.js / TailwindCSS</b>"]
+        web["🌐 University Public Website<br/><b>Next.js 16 (Vercel)</b>"]
+        admin["📊 Central Admin & ERP Portal<br/><b>Next.js 16 / TailwindCSS (Vercel)</b>"]
         student_app["📱 Student Mobile App<br/><b>Flutter (Android / iOS)</b>"]
         faculty_app["👨‍🏫 Faculty Mobile App<br/><b>Flutter (Android / iOS)</b>"]
     end
 
-    subgraph API_Layer["⚡ Backend & Gateway Layer"]
-        web_api["🚀 Public & Web Services API<br/><b>Node.js / Express.js (:5000)</b>"]
-        admin_api["🛡️ Admin & ERP Core Engine<br/><b>NestJS (:3001)</b>"]
+    subgraph API_Layer["⚡ Unified Backend & Gateway Layer"]
+        unified_api["🚀 Unified Backend Server<br/><b>NestJS / Prisma (Render)</b>"]
         auth["🔐 JWT & Role-Based Access Control (RBAC)"]
     end
 
@@ -137,20 +161,19 @@ graph TD
     end
 
     subgraph Data_Layer["🗄️ Database & Storage Layer"]
-        pg["🐘 Relational Database<br/><b>PostgreSQL Instances</b>"]
-        supa["⚡ Real-time Data Sync & File Storage<br/><b>Supabase Cloud</b>"]
+        pg["🐘 Relational Database<br/><b>PostgreSQL (Supabase)</b>"]
+        supa["⚡ Cloud Storage & Auth<br/><b>Supabase / Firebase</b>"]
     end
 
-    web --> web_api
-    admin --> admin_api
-    student_app --> web_api
+    web --> unified_api
+    admin --> unified_api
+    student_app --> unified_api
     student_app --> ai_assistant
     student_app --> fcm
-    faculty_app --> admin_api
+    faculty_app --> unified_api
     faculty_app --> fcm
 
-    web_api --> auth
-    admin_api --> auth
+    unified_api --> auth
     auth --> pg
     auth --> supa
 ```
@@ -158,6 +181,8 @@ graph TD
 ---
 
 ## 🌐 Web Portals
+
+> 🔗 **Live Public Portal:** **[https://nubtk-website.vercel.app](https://nubtk-website.vercel.app)**
 
 ### 1. University Public Portal
 Modern, responsive web interface for prospective students, current students, faculty, and public visitors.
@@ -182,6 +207,8 @@ Modern, responsive web interface for prospective students, current students, fac
 
 ## 📊 Centralized Admin Panel & ERP
 
+> 🔗 **Live Admin Panel:** **[https://nubtk-admin.vercel.app](https://nubtk-admin.vercel.app)** *(Supports one-click **Demo Admin** prototype preview as well as live backend authentication)*
+
 The admin dashboard provides full institutional command with predictive business intelligence:
 - **Real-Time KPIs:** Live counts of active students (2,800+), faculty members, overall attendance rate, and revenue collection.
 - **Workflow Pipeline:** Step-by-step verification (Payment Verified ➔ Documents Verified ➔ Interview Scheduled ➔ Final Approval).
@@ -199,6 +226,8 @@ Cross-platform mobile applications tailored specifically for student and faculty
 
 ### 🎓 Student Mobile App
 Equipped with personal profiles, academic tracking, tuition fee payments, dynamic class schedules, and a generative AI study assistant.
+
+> 📥 **[Download Student App APK (v1.0.0 · 78.9 MB)](https://github.com/mahfuj735/nubtk_automation/releases/download/v1.0.0/NUBTK-Student-App-v1.0.0.apk)**
 
 <table align="center" width="100%">
   <tr>
@@ -227,6 +256,8 @@ Equipped with personal profiles, academic tracking, tuition fee payments, dynami
 
 ### 👨‍🏫 Faculty Mobile App
 Empowers professors and course instructors with on-the-go academic management.
+
+> 📥 **[Download Faculty App APK (v1.0.0 · 63.6 MB)](https://github.com/mahfuj735/nubtk_automation/releases/download/v1.0.0/NUBTK-Faculty-App-v1.0.0.apk)**
 
 <table align="center" width="100%">
   <tr>
@@ -288,10 +319,10 @@ Empowers professors and course instructors with on-the-go academic management.
 | Domain | Technologies Used |
 | :--- | :--- |
 | **Mobile Applications** | Flutter, Dart, Riverpod / Provider |
-| **Web Frontends** | React.js, Vite, TailwindCSS, Axios |
-| **Backend Services** | Node.js, Express.js, NestJS, TypeScript |
-| **Databases** | PostgreSQL, Supabase Realtime |
-| **Cloud & DevOps** | Firebase (Auth, FCM), Supabase Storage, Docker |
+| **Web Frontends** | Next.js 16, React 19, TypeScript, TailwindCSS, Zustand |
+| **Backend Services** | NestJS 10, Prisma ORM, Express.js, TypeScript |
+| **Databases** | PostgreSQL (Supabase Cloud) |
+| **Cloud & Hosting** | Vercel (Frontends), Render (Backend API), Firebase (Auth, FCM) |
 | **AI Integration** | Google Gemini API for Academic Assistant |
 
 ---
